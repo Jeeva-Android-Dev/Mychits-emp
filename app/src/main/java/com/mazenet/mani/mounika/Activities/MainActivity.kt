@@ -19,7 +19,7 @@ class MainActivity : BaseActivity() {
         setContentView(R.layout.splash)
         initDb()
         spalsh.setImageResource(R.drawable.mychitsempapp)
-
+              // splash also included here in this activity
                 System.out.println("inside permission success ")
                 Handler().postDelayed({
                     var counter = getPrefsInt(Constants.First_time, 0)
